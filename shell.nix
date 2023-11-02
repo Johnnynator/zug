@@ -33,7 +33,7 @@ the-stdenv.mkDerivation rec {
   buildInputs = [
     cmake
     boost
-    catch2
+    catch2_3
     ccache
     old-nixpkgs.doxygen
     (old-nixpkgs.python.withPackages (ps: [
